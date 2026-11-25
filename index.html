@@ -3,101 +3,67 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Invoxa – Privacy Policy</title>
-<meta name="description" content="Privacy policy for the Invoxa invoicing app.">
+<title>Invoxa – Simple offline invoicing for small businesses</title>
+<meta name="description" content="Invoxa is a simple, fast, fully offline invoicing app for small businesses. Create professional invoice PDFs on your phone. No account needed.">
+<link rel="icon" href="logo.svg" type="image/svg+xml">
 <style>
-  :root { color-scheme: light dark; --fg: #1d1d1f; --muted: #5f6368; --bg: #ffffff; --line: #e3e3e6; --accent: #2f6fed; }
-  @media (prefers-color-scheme: dark) { :root { --fg: #ececf0; --muted: #a6a8ad; --bg: #121214; --line: #2c2c31; --accent: #7aa5ff; } }
+  :root { color-scheme: light dark; --fg: #1d1d1f; --muted: #5f6368; --bg: #ffffff; --card: #f6f7fb; --line: #e3e3e6; --accent: #3B5BDB; }
+  @media (prefers-color-scheme: dark) { :root { --fg: #ececf0; --muted: #a6a8ad; --bg: #121214; --card: #1b1b1f; --line: #2c2c31; --accent: #7aa5ff; } }
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
-  main { max-width: 760px; margin: 0 auto; padding: 48px 20px 80px; }
-  h1 { font-size: 2rem; margin: 0 0 4px; }
-  h2 { font-size: 1.2rem; margin: 40px 0 8px; padding-top: 16px; border-top: 1px solid var(--line); }
-  .meta { color: var(--muted); margin: 0 0 24px; }
+  main { max-width: 820px; margin: 0 auto; padding: 56px 20px 80px; }
+  header { display: flex; align-items: center; gap: 16px; }
+  header img { width: 64px; height: 64px; }
+  h1 { font-size: 2.2rem; margin: 0; line-height: 1.2; }
+  .tagline { font-size: 1.2rem; color: var(--muted); margin: 16px 0 32px; }
+  h2 { font-size: 1.25rem; margin: 44px 0 10px; padding-top: 16px; border-top: 1px solid var(--line); }
   a { color: var(--accent); }
-  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 0.95rem; }
-  th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--line); }
-  th { font-weight: 600; }
-  .summary { border: 1px solid var(--line); border-radius: 12px; padding: 4px 20px; }
-  footer { margin-top: 48px; color: var(--muted); font-size: 0.9rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; margin-top: 12px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 18px; }
+  .card h3 { margin: 0 0 4px; font-size: 1rem; }
+  .card p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+  footer { margin-top: 56px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; }
+  footer a { margin-right: 14px; }
 </style>
 </head>
 <body>
 <main>
-  <h1>Invoxa Privacy Policy</h1>
-  <p class="meta">Effective date: 25 November 2026</p>
+  <header>
+    <img src="logo.svg" alt="Invoxa logo">
+    <h1>Invoxa</h1>
+  </header>
+  <p class="tagline">Simple, fast invoicing for small businesses, right on your phone. No account, no sign-up, and it works fully offline.</p>
 
-  <div class="summary">
-    <p><strong>In short:</strong> Invoxa has no accounts and no servers. Your business profile, customers, invoices and templates stay on your device. We (the developer) do not collect, see or sell your personal data. The free version shows ads from Google AdMob, which collects some device data for advertising. Subscriptions go through the App Store or Google Play and RevenueCat. Google Drive backup is optional and saves only to your own Drive.</p>
+  <h2>What Invoxa does</h2>
+  <p>Invoxa is a mobile app for Android and iOS that helps freelancers and small businesses create and send professional invoices. You add your business details, customers and items, choose a template, and Invoxa makes a clean PDF invoice you can share by email, messaging apps or print.</p>
+  <div class="grid">
+    <div class="card"><h3>Professional invoices</h3><p>Choose a template, add your logo and signature, and export a PDF in seconds.</p></div>
+    <div class="card"><h3>Customers and items</h3><p>Save your customers and items so you can reuse them on new invoices.</p></div>
+    <div class="card"><h3>Fully offline</h3><p>All your data is stored on your device. Invoxa has no servers and no accounts.</p></div>
+    <div class="card"><h3>Automatic backups</h3><p>Back up to a folder on your phone or to your own Google Drive, daily, weekly or monthly.</p></div>
   </div>
 
-  <h2>1. Who we are</h2>
-  <p>Invoxa ("the app", "we", "us") is a mobile invoicing app published by John Lesley. If you have questions about this policy, contact us at <a href="mailto:support.invoxa.app@gmail.com">support.invoxa.app@gmail.com</a>.</p>
+  <h2>Pricing</h2>
+  <p>Every feature is free and unlimited. The free version shows ads. An optional "Remove ads" subscription, bought through the App Store or Google Play, turns ads off.</p>
 
-  <h2>2. Data stored on your device</h2>
-  <p>Everything you enter in Invoxa is stored only in the app's private storage on your device. This includes your business profile, logo, signature, customers, invoices, items, templates and settings. We have no server, so this data is never sent to us. Invoice PDFs and backup files leave your device only when you choose to share, export or back them up.</p>
-  <p>Your device's operating system may include app data in its own device backups (for example iCloud or Android device backup). Those backups are handled by Apple or Google under their own terms.</p>
-
-  <h2>3. Data handled by third parties</h2>
-  <table>
-    <thead><tr><th>Service</th><th>What it handles</th><th>When</th></tr></thead>
-    <tbody>
-      <tr>
-        <td>Google AdMob</td>
-        <td>Advertising ID, consent status, ad interactions, IP address and general device information (such as model and OS version)</td>
-        <td>Free version only, to show ads, measure them and prevent fraud</td>
-      </tr>
-      <tr>
-        <td>RevenueCat, Apple App Store, Google Play</td>
-        <td>A random anonymous app ID and your store purchase receipts. No name or email is sent by Invoxa.</td>
-        <td>When you check, buy or restore a subscription</td>
-      </tr>
-      <tr>
-        <td>Google Drive (optional)</td>
-        <td>Backup files, sent to <em>your own</em> Google Drive account</td>
-        <td>Only if you connect Google Drive as a backup destination</td>
-      </tr>
-    </tbody>
-  </table>
-  <p>Each of these services processes data under its own privacy policy:</p>
+  <h2>How Invoxa uses your Google account</h2>
+  <p>Signing in with Google is <strong>optional</strong>. It is used only if you choose Google Drive as a backup destination. Invoxa then saves backup files of your invoice data to an "Invoxa Backups" folder in <em>your own</em> Google Drive, so you can restore them on a new phone.</p>
   <ul>
-    <li>Google (AdMob and Drive): <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>, and how Google uses data from partner apps: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a></li>
-    <li>RevenueCat: <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a></li>
-    <li>Apple: <a href="https://www.apple.com/legal/privacy/">apple.com/legal/privacy</a></li>
+    <li>Invoxa requests only the limited <code>drive.file</code> permission. It can see and change only the files it creates, not the rest of your Drive.</li>
+    <li>Your Google email address is kept on your device only, to show which account is connected.</li>
+    <li>Your data is never sent to us, sold, or used for advertising.</li>
+    <li>You can disconnect at any time from the Backup screen in the app, or at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
   </ul>
-  <p>Invoxa does not include any analytics or crash-reporting tools.</p>
+  <p>Invoxa's use of information received from Google APIs follows the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. Full details are in our <a href="privacy.html">Privacy Policy</a>.</p>
 
-  <h2>4. Advertising and your choices</h2>
-  <ul>
-    <li><strong>EEA, UK and Switzerland:</strong> before any ads load, the app shows Google's consent form so you can choose whether ads may be personalised. You can change your choice at any time in <em>Settings → Ad privacy choices</em>.</li>
-    <li><strong>iOS:</strong> the app asks for permission under App Tracking Transparency before the Advertising ID can be used for tracking. You can change this in iOS Settings → Privacy &amp; Security → Tracking.</li>
-    <li><strong>Android:</strong> you can reset or delete your Advertising ID in your device's Settings → Privacy → Ads (the exact path depends on your device).</li>
-    <li>A subscription removes ads completely, and then no ads are requested.</li>
-  </ul>
+  <h2>Contact</h2>
+  <p>Questions or support: <a href="mailto:support.invoxa.app@gmail.com">support.invoxa.app@gmail.com</a></p>
 
-  <h2>5. Google Drive backup</h2>
-  <p>If you choose Google Drive for backups, you sign in with Google only so the app can get permission to save files. Invoxa asks for the limited <code>drive.file</code> permission, which lets it see and change only the files it creates (the "Invoxa Backups" folder), not the rest of your Drive. The only account detail kept is your Google email address, stored on your device so the Backup screen can show which account is connected. Invoxa's use of information received from Google APIs follows the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
-  <p>You can disconnect at any time from the Backup screen. This revokes the app's access. Backup files already in your Drive stay there until you delete them. You can also remove access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
-
-  <h2>6. Data retention and deletion</h2>
-  <p>Because your data is stored only on your device, you control it. You can delete all app data with <em>Settings → Reset app data</em>, or by uninstalling the app. Backup files you exported or saved to Google Drive stay wherever you put them until you delete them. Data held by AdMob, RevenueCat or the app stores is kept under their own policies. To request deletion of your RevenueCat purchase record, contact us and we will forward the request.</p>
-
-  <h2>7. Security</h2>
-  <p>All network communication by the services above uses encrypted connections (TLS). Subscription status cached on the device is kept in the operating system's secure storage. No method of storage or transfer is completely secure, so please protect your device with a passcode.</p>
-
-  <h2>8. Children</h2>
-  <p>Invoxa is a business tool and is not directed at children under 13 (or the minimum age in your country). We do not knowingly collect data from children.</p>
-
-  <h2>9. Your rights</h2>
-  <p>Depending on where you live (for example under the GDPR in the EU/UK or the CCPA in California), you may have rights to access, correct, delete or object to the processing of your personal data. Since we do not hold your personal data, most requests are handled directly in the app or with the third-party services listed above. We do not sell personal data. If you need help, contact us at <a href="mailto:support.invoxa.app@gmail.com">support.invoxa.app@gmail.com</a>.</p>
-
-  <h2>10. Changes to this policy</h2>
-  <p>If we change this policy, we will update this page and the effective date above. Significant changes will also be noted in the app's release notes.</p>
-
-  <h2>11. Contact</h2>
-  <p>John Lesley<br><a href="mailto:support.invoxa.app@gmail.com">support.invoxa.app@gmail.com</a></p>
-
-  <footer>© 2026 John Lesley. Invoxa.</footer>
+  <footer>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="mailto:support.invoxa.app@gmail.com">Support</a>
+    <span>© 2026 John Lesley. Invoxa.</span>
+  </footer>
 </main>
 </body>
 </html>
